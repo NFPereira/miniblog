@@ -1,0 +1,12 @@
+.login {
+  text-align: center;
+}
+.login p {
+  color: #aaa;
+}
+
+.div_btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}

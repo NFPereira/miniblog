@@ -1,0 +1,12 @@
+.register {
+  text-align: center;
+}
+.register p {
+  color: #aaa;
+}
+
+.div_btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
