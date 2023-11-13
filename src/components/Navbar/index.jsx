@@ -10,14 +10,14 @@ const Navbar = () => {
   return (
     <div className={styles.navbar}>
       <div className={styles.brand}>
-        <NavLink to="/">
+        <NavLink to="/miniblog">
           Mini <span>Blog</span>
         </NavLink>
       </div>
       <ul className={styles.links_list}>
         <li>
           <NavLink
-            to="/"
+            to="/miniblog"
             className={({ isActive }) => (isActive ? styles.active : "")}
           >
             Home
